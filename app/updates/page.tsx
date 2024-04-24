@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import { title } from "process";
 
 export const metadata: Metadata = {
-  title: 'Headshot Interactive | Home',
+  title: 'Headshot Interactive | Updates',
   description: 'Headshot Interactive | Updates Page.',
   // info
   applicationName: 'Headshot Interactive',
