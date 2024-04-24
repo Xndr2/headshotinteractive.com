@@ -3,8 +3,39 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: 'Headshot Interactive | Home',
-    description: 'Headshot Interactive | 404 page not found.',
-    icons: 'Logos/HI_Logo.png',
+    description: 'Headshot Interactive | Home Page.',
+    // info
+    applicationName: 'Headshot Interactive',
+    referrer: 'origin-when-cross-origin',
+    keywords: ['Headshot Interactive', 'Headshot', 'Interactive', 'HeadshotInteractive', 'Abandoned', 'Abandoned Part 1', 'Part 1', 'Xndr'],
+    authors: [{ name: 'Headshot' }, { name: 'Interactive', url: 'https://headshotinteractive.com' }],
+    creator: 'Xndr',
+    publisher: 'Xndr',
+    formatDetection: {
+        email: false,
+        address: false,
+        telephone: false,
+    },
+    // verification
+    verification: {
+        google: 'google',
+    },
+    // icons
+    icons: {
+        icon: '/Logos/HI_Logo.png',
+        shortcut: '/Logos/HI_Logo.png',
+        apple: '/Logos/HI_Logo.png',
+    },
+    // twitter / and other things according to Next.js
+    twitter: {
+        card: 'summary_large_image',
+        title: 'HeadshotInteractive.com',
+        description: 'Welcome to Headshot. We are a small indie development studio. Check out Abandoned!',
+        site: '@Xndr___',
+        creator: '@Xndr___',
+        creatorId: '1493973114211995656',
+        images: ['https://headshotinteractive.com/Logos/HI_Logo.png'], // Must be an absolute URL
+    },
 }
 
 export default function Home() {
