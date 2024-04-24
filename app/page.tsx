@@ -71,7 +71,7 @@ export default function Home() {
                     <p className="mx-10 md:text-lg text-center">
                         We are Headshot Interactive, a small indie development studio.
                         <br />
-                        Starting from a single developer, we have become to a team of 8 people and growing.
+                        Starting from a single developer, we have become to a team of 7 people and growing.
                     </p>
                     {/* member list */}
                     <MeetTheTeam team={team} />

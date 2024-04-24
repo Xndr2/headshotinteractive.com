@@ -14,9 +14,9 @@ interface TeamProps {
 export default function MeetTheTeam(props: TeamProps) {
     const { team } = props;
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-max m-auto mt-4 max-h-80 overflow-scroll text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-max m-auto mt-4 max-h-80 overflow-scroll md:overflow-visible text-left">
             {team.map((member) => (
-                <div className="flex items-center border-2 rounded-lg" key="">
+                <div className="flex items-center border-2 rounded-lg" key={member.src}>
                     <Image
                         src={member.src}
                         width={128}
