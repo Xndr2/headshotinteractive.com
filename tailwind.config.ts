@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        'home-image-1': "url('/HomeImages/planet.jpg')",
+        'home-image-2': "url('/HomeImages/orb.jpg')",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
