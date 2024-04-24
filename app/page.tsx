@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
-            <div className="relative">
+            <div className="relative text-center">
                 {/* Info */}
                 <div className="sticky top-0 flex h-screen flex-col items-center bg-home-image-1 bg-cover bg-center">
                     <Image
@@ -20,7 +20,7 @@ export default function Home() {
                         height={14}
                         className="h-auto md:w-6/12 mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
                     />
-                    <h2 className="text-4xl mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay!</h2>
+                    <h2 className="text-2xl md:text-4xl mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay!</h2>
                 </div>
 
                 {/* About */}
