@@ -7,7 +7,7 @@ const Logo = () => {
   return (
     <>
       <Image
-        src="/HI_Logo.png"
+        src="/Logos/HI_Logo.png"
         alt="Logo"
         width={500}
         height={500}

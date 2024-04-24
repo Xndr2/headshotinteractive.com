@@ -98,7 +98,7 @@ const Sidebar = ({
         {/* Logo */}
         <div className="absolute bottom-0 left-0 mb-4 w-full mx-auto">
           <Image
-            src="/HI_Text.png"
+            src="/Logos/HI_Text.png"
             alt="Logo"
             width={1440}
             height={14}
