@@ -1,5 +1,6 @@
 import { Analytics } from "@vercel/analytics/react"
 import Navigation from "./components/navigation";
+import Script from 'next/script'
 import "./globals.css";
 
 import { Goldman } from "next/font/google";
@@ -47,6 +48,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-JJZVQ6H597" />
+        <Script src="./googleScript.js" />
+      </head>
       <body className={goldman.className}>
         <Navigation />
         {children}
@@ -54,3 +59,13 @@ export default function RootLayout({
     </html>
   );
 }
+
+// {/* <!-- Google tag (gtag.js) --> */ }
+//       <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJZVQ6H597"></script>
+//       <script>
+//         window.dataLayer = window.dataLayer || [];
+//         function gtag(){dataLayer.push(arguments);}
+//         gtag('js', new Date());
+
+//         gtag('config', 'G-JJZVQ6H597');
+//       </script>
