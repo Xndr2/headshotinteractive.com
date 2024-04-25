@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
     title: 'Shot Missed...',
     description: 'Headshot Interactive | 404 page not found.',
-    icons: 'Logos/HI_Logo.png',
 }
 
 export default function Error() {
