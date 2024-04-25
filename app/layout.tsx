@@ -2,7 +2,6 @@ import { Analytics } from "@vercel/analytics/react"
 import Navigation from "./components/navigation";
 import Script from 'next/script'
 import "./globals.css";
-
 import { Goldman } from "next/font/google";
 
 const goldman = Goldman({
@@ -13,6 +12,13 @@ const goldman = Goldman({
 export const metadata = {
   title: 'Headshot Interactive',
   description: 'Welcome to the official Headshot Interactive website. Meet the team, learn about Abandoned or check recent updates.',
+  url: "headshotinteractive.com",
+  image: "https://headshotinteractive.com/Logos/HI_LogoBlack.png",
+  // icons
+  icons: {
+    icon: '/Logos/HI_Logo.png',
+    shortcut: '/Logos/HI_Logo.png',
+  },
   // info
   applicationName: 'Headshot Interactive',
   referrer: 'origin-when-cross-origin',
@@ -25,20 +31,15 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  // icons
-  icons: {
-    icon: '/Logos/HI_Logo.png',
-    shortcut: '/Logos/HI_Logo.png',
-  },
   // twitter / and other things according to Next.js
-  twitter: {
-    card: 'summary',
-    title: 'headshotinteractive.com',
-    description: 'Welcome to Headshot. We are a small indie development studio. Check out Abandoned!',
-    site: '@Xndr___',
-    creator: '@Xndr___',
-    image: 'https://headshotinteractive.com/Logos/HI_Logo.png', // Must be an absolute URL
-  },
+  // twitter: {
+  //   card: 'summary',
+  //   title: 'headshotinteractive.com',
+  //   description: 'Welcome to Headshot. We are a small indie development studio. Check out Abandoned!',
+  //   site: '@Xndr___',
+  //   creator: '@Xndr___',
+  //   image: 'https://headshotinteractive.com/Logos/HI_Logo.png', // Must be an absolute URL
+  // },
 }
 
 export default function RootLayout({
