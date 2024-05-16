@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Update() {
     return (
-        <div className=":max-w-[52rem] mx-auto px-4 pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-6xl">
+        <div className=":max-w-[52rem] md:mt-20 mx-auto px-4 pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-6xl">
             <header className="py-16 text-center">
                 <h1 className="mb-4 text-3xl sm:text-4xl tracking-tight underline font-extrabold">New Name: Headshot Interactive</h1>
                 <p className="text-lg text-slate-400 text-left">

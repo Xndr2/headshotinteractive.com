@@ -14,7 +14,7 @@ interface UpdatesProps {
 export default function Updates(props: UpdatesProps) {
     const { updates } = props;
     return (
-        <div className="max-w-[52rem] mx-auto px-4 pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-6xl">
+        <div className="max-w-[52rem] md:mt-20 mx-auto px-4 pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-6xl">
             <header className="py-16 sm:text-center">
                 <h1 className="mb-4 text-3xl sm:text-4xl tracking-tight font-extrabold text-slate-200">Latest Updates
                     <p className="text-lg">All the latest Headshot Interactive and Abandoned news.</p>

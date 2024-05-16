@@ -13,41 +13,65 @@ export default function Home() {
 
     return (
         <>
-            <div className="relative text-center">
-                {/* Info */}
-                <div className="sticky top-0 flex h-screen flex-col items-center bg-home-image-1 bg-cover bg-center">
-                    <Image
-                        src="/Logos/HI_Text.png"
-                        alt="Logo"
-                        width={1440}
-                        height={14}
-                        className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
-                    />
-                    <h2 className="text-2xl md:text-4xl mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay</h2>
-                </div>
+            <main className="">
+                <div className="absolute top-0 w-full text-center">
+                    {/* Main */}
+                    <div className="sticky top-0 flex h-[120vh] flex-col items-center bg-home-image-1 bg-cover bg-center">
+                        <Image
+                            src="/Logos/HI_Text.png"
+                            alt="Logo"
+                            width={1440}
+                            height={14}
+                            className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
+                        />
+                        <h2 className="text-2xl md:text-4xl mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay</h2>
+                    </div>
 
-                {/* About */}
-                <div className="sticky top-0 flex h-screen flex-col items-center bg-home-image-2 bg-cover bg-center">
-                    <h2 className="text-4xl mt-20 md:mt-40 mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">Meet the team!</h2>
-                    <p className="mx-10 md:text-lg text-center">
-                        We are Headshot Interactive, a small indie development studio.
-                        <br />
-                        Starting from a single developer, we have grown into a team of 7 amazing people.
-                    </p>
-                    {/* member list */}
-                    <MeetTheTeam team={team} />
-                </div>
+                    {/* About */}
+                    <div className="sticky top-0 flex h-[120vh] flex-col items-center bg-home-image-2 bg-cover bg-center">
+                        <h2 className="text-4xl mt-20 md:mt-40 mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">Meet the team!</h2>
+                        <p className="mx-10 md:text-lg text-center max-w-screen-md">
+                            We are Headshot Interactive, a small indie development studio.
+                            <br />
+                            Starting from a single developer, we have grown into a team of 6 amazing people.
+                        </p>
+                        {/* member list */}
+                        <MeetTheTeam team={team} />
+                    </div>
 
-                {/* Abandoned */}
-                <div className="sticky top-0 flex h-screen flex-col items-center bg-black bg-cover bg-center">
-                    <h2 className="text-4xl mt-20 md:mt-40 mx-2">Abandoned</h2>
-                    <p className="mx-10 text-pretty">
-                        COMING
-                        <br />
-                        SOON
-                    </p>
+                    {/* Abandoned */}
+                    <div className="sticky top-0 flex h-full max-h-max flex-col items-center bg-black bg-cover bg-center">
+                        <Image
+                            src="/Logos/Abandoned_logo.png"
+                            alt="Logo"
+                            width={640}
+                            height={101}
+                            className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
+                        />
+
+                        {/* Info */}
+                        <p className="mx-10 mb-20 md:text-lg text-left max-w-screen-md">
+                            Abandoned is a Sci-Fi Tactical PvE shooter set on an alien planet that serves as a trading hub for products,
+                            spices and goods from all across the galaxy.
+                            <br /><br />
+                            You, <span className="italic">the player</span>, are on this planet and need to find a way back home. <br />
+                            Explore the huge city, fight alien terrorists that want to take over the planet or work together with the military and destroy these terrorist once and for all.<br />
+                            The game follows a basic story line, some of the decisions you make can lead to an entirely different ending.
+                            <br /><br /><span className="font-semibold text-xl">&#8227; Explore</span><br />
+                            Build on Unreal Engine 5, Abandoned allows for a planet on a 1:1 scale that is fully explore-able. Explore the city or go outside city walls, who knows what you might find out there.
+                            <br /><br /><span className="font-semibold text-xl">&#8227; Fight</span><br />
+                            The city&apos;s military is in all out war with a group of terrorists that want to take over the city. Complete your basic training and join an AI squad on a mission.
+                            Carefully plan out your next move, be stealthy, or go in guns-blazing.
+                            <br />The choice is up to you.
+                            <br /><br /><span className="font-semibold text-xl">&#8227; Escape</span><br />
+                            At the end of the day, your main objective is still trying to get off this planet and going back to earth to report what happened to your crew... what actually happened to your crew?
+                            Try to remember the events that went down before coming to this planet alone and leave once you remember everything you need. But is everything you need to know really everything there&apos;s to know?
+                            <br />Can you really trust everyone you know?
+                            <br />Maybe all this isn&apos;t what it looks like...
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </main>
         </>
     );
 }

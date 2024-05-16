@@ -2,24 +2,24 @@ import React from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 
-const Navbar = ({ toggle }: { toggle: () => void }) => {
+const Navbar = ({ isOpen, toggle }: {
+  isOpen: boolean;
+  toggle: () => void;
+}): JSX.Element => {
   return (
     <>
-      <div className="w-full h-16 md:h-32 text-white sticky top-0 z-10 bg-black">
+      <div className="w-full h-16 md:h-24 text-white fixed top-0 z-40 bg-black">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <div className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Logo />
               <div className="ml-2 text-nowrap">
                 <p className="md:text-2xl">Headshot Interactive</p>
                 <p className="text-xs hidden md:flex">&copy; Copyright HeadshotInteractive.com | 2024</p>
               </div>
-            </div>
-            <button
-              type="button"
-              className="inline-flex items-center md:hidden"
-              onClick={toggle}
-            >
+            </Link>
+            {/* Open Button */}
+            <button type="button" className={`${isOpen ? "hidden" : "block"}` + " inline-flex items-center md:hidden"} onClick={toggle}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -29,6 +29,20 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 <path
                   fill="#fff"
                   d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
+                />
+              </svg>
+            </button>
+            {/* Close Button */}
+            <button type="button" className={`${isOpen ? "block" : "hidden"}` + " inline-flex items-center md:hidden"} onClick={toggle}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
                 />
               </svg>
             </button>
