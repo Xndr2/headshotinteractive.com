@@ -1,22 +1,35 @@
 import Image from "next/image";
+import Link from "next/link";
 import MeetTheTeam from "./components/meettheteam";
+import Testers from "./components/testers";
 
 export default function Home() {
     let team = [
-        { src: "/abandoned_pfp/xndr.webp", name: "Xndr", description: "Project Lead | Senior Developer" },
-        { src: "/abandoned_pfp/charlesfrost.webp", name: "CharlesFrxst", description: "Community Manager | Senior Moderator" },
-        { src: "/abandoned_pfp/gadubadish.webp", name: "Gadubadish", description: "3D Modeler | Senior Developer" },
-        { src: "/abandoned_pfp/grug.webp", name: "Grug", description: "Trial Graphics Developer | Moderator" },
-        { src: "/abandoned_pfp/theusi.webp", name: "TheUsi", description: "3D Modeler | Developer" },
-        { src: "/abandoned_pfp/milton.webp", name: "Milton", description: "Story Writer | Trial Developer" },
+        // team
+        { src: "/abandoned_pfp/xndr.webp", name: "Xndr", title: "Project Lead", rank: "Senior Developer" },
+        { src: "/abandoned_pfp/charlesfrost.webp", name: "CharlesFrxst", title: "Community Manager", rank: "Senior Moderator" },
+        { src: "/abandoned_pfp/gadubadish.webp", name: "Gadubadish", title: "3D Modeler", rank: "Senior Developer" },
+        { src: "/abandoned_pfp/grug.webp", name: "Grug", title: "Trial Graphics Developer ", rank: "Moderator" },
+        { src: "/abandoned_pfp/theusi.webp", name: "TheUsi", title: "3D Modeler", rank: "Developer" },
+        { src: "/abandoned_pfp/milton.webp", name: "Milton", title: "Story Writer", rank: "Trial Developer" },
     ];
+
+    let testers = [
+        // testers
+        { src: "/abandoned_pfp/testers/Kronos II.webp", name: "Kronos II", title: "Tester" },
+        { src: "/abandoned_pfp/testers/Mera.webp", name: "Mera", title: "Tester" },
+        { src: "/abandoned_pfp/testers/Simon.webp", name: "Simon", title: "Tester" },
+        { src: "/abandoned_pfp/testers/Flixy.webp", name: "Flixy", title: "Tester" },
+        { src: "/abandoned_pfp/testers/Jarne2203.webp", name: "Jarne2203", title: "Tester" },
+        { src: "/abandoned_pfp/testers/Serg4.webp", name: "Serg4", title: "Tester" },
+    ]
 
     return (
         <>
             <main className="">
-                <div className="absolute top-0 w-full text-center">
+                <div id="Home" className="absolute top-0 w-full text-center">
                     {/* Main */}
-                    <div className="sticky top-0 flex h-[120vh] flex-col items-center bg-home-image-1 bg-cover bg-center">
+                    <div className="flex h-[120vh] flex-col items-center bg-home-image-1 bg-cover bg-center">
                         <Image
                             src="/Logos/HI_Text.png"
                             alt="Logo"
@@ -24,23 +37,57 @@ export default function Home() {
                             height={14}
                             className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
                         />
-                        <h2 className="text-2xl md:text-4xl mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay</h2>
+                        {/* buttons */}
+                        <div className="">
+                            <h2 className="text-2xl md:text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay</h2>
+                            <div className="flex flex-col justify-between mt-12">
+                                {/* About Button */}
+                                <Link className="flex items-center text-sm md:text-xl text-red-500 font-medium" href="/#About">
+                                    <span className="relative drop-shadow-[0_1.2px_1.2px_rgba(239,68,68,1)]">Meet The Team</span>
+                                    {/* pc arrow */}
+                                    <svg className="hidden md:block relative mt-px overflow-visible ml-2.5 text-red-500" width="4" height="8" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M0 0L3 3L0 6"></path>
+                                    </svg>
+                                    {/* mobile arrow */}
+                                    <svg className="block md:hidden relative mt-px overflow-visible ml-2.5 text-red-500" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M0 0L3 3L0 6"></path>
+                                    </svg>
+                                </Link>
+                                {/* Abandoned Button */}
+                                <Link className="flex items-center text-sm md:text-xl text-red-500 font-medium" href="/#Abandoned">
+                                    <span className="relative drop-shadow-[0_1.2px_1.2px_rgba(239,68,68,1)]">Learn About Abandoned</span>
+                                    {/* pc arrow */}
+                                    <svg className="hidden md:block relative mt-px overflow-visible ml-2.5 text-red-500" width="4" height="8" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M0 0L3 3L0 6"></path>
+                                    </svg>
+                                    {/* mobile arrow */}
+                                    <svg className="block md:hidden relative mt-px overflow-visible ml-2.5 text-red-500" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M0 0L3 3L0 6"></path>
+                                    </svg>
+                                </Link>
+                            </div>
+                        </div>
+
                     </div>
 
                     {/* About */}
-                    <div className="sticky top-0 flex h-[120vh] flex-col items-center bg-home-image-2 bg-cover bg-center">
+                    <div id="About" className="flex h-full md:h-[120vh] flex-col items-center bg-home-image-2 bg-cover bg-center">
                         <h2 className="text-4xl mt-20 md:mt-40 mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">Meet the team!</h2>
                         <p className="mx-10 md:text-lg text-center max-w-screen-md">
                             We are Headshot Interactive, a small indie development studio.
                             <br />
-                            Starting from a single developer, we have grown into a team of 6 amazing people.
+                            Starting from a single developer, we have grown into a team of {team.length} amazing people.
                         </p>
                         {/* member list */}
                         <MeetTheTeam team={team} />
+                        <p className="mx-10 md:text-lg text-center max-w-screen-md">
+                            We also have a small group of {testers.length} active Steam testers.
+                        </p>
+                        <Testers testers={testers} />
                     </div>
 
                     {/* Abandoned */}
-                    <div className="sticky top-0 flex h-full max-h-max flex-col items-center bg-black bg-cover bg-center">
+                    <div id="Abandoned" className="flex h-full max-h-max flex-col items-center bg-black bg-cover bg-center">
                         <Image
                             src="/Logos/Abandoned_logo.png"
                             alt="Logo"
