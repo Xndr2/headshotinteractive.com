@@ -37,36 +37,7 @@ export default function Home() {
                             height={14}
                             className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
                         />
-                        {/* buttons */}
-                        <div className="">
-                            <h2 className="text-2xl md:text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">We aim for gameplay</h2>
-                            <div className="flex flex-col justify-between mt-12">
-                                {/* About Button */}
-                                <Link className="flex items-center text-sm md:text-xl text-red-500 font-medium" href="/#About">
-                                    <span className="relative drop-shadow-[0_1.2px_1.2px_rgba(239,68,68,1)]">Meet The Team</span>
-                                    {/* pc arrow */}
-                                    <svg className="hidden md:block relative mt-px overflow-visible ml-2.5 text-red-500" width="4" height="8" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M0 0L3 3L0 6"></path>
-                                    </svg>
-                                    {/* mobile arrow */}
-                                    <svg className="block md:hidden relative mt-px overflow-visible ml-2.5 text-red-500" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M0 0L3 3L0 6"></path>
-                                    </svg>
-                                </Link>
-                                {/* Abandoned Button */}
-                                <Link className="flex items-center text-sm md:text-xl text-red-500 font-medium" href="/#Abandoned">
-                                    <span className="relative drop-shadow-[0_1.2px_1.2px_rgba(239,68,68,1)]">Learn About Abandoned</span>
-                                    {/* pc arrow */}
-                                    <svg className="hidden md:block relative mt-px overflow-visible ml-2.5 text-red-500" width="4" height="8" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M0 0L3 3L0 6"></path>
-                                    </svg>
-                                    {/* mobile arrow */}
-                                    <svg className="block md:hidden relative mt-px overflow-visible ml-2.5 text-red-500" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M0 0L3 3L0 6"></path>
-                                    </svg>
-                                </Link>
-                            </div>
-                        </div>
+
 
                     </div>
 
