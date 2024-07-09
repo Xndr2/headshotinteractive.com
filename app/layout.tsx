@@ -16,8 +16,8 @@ export const metadata = {
   image: "https://headshotinteractive.com/Logos/HI_LogoBlack.png",
   // icons
   icons: {
-    icon: '/Logos/HI_Logo.png',
-    shortcut: '/Logos/HI_Logo.png',
+    icon: '/Logos/HI_LogoBlack.png',
+    shortcut: '/Logos/HI_LogoBlack.png',
   },
   // info
   applicationName: 'Headshot Interactive',
