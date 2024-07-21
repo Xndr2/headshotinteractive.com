@@ -11,13 +11,19 @@ const Navbar = ({ isOpen, toggle }: {
       <div className="w-full h-16 md:h-24 text-white fixed top-0 z-40 bg-black">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <Link href="/" className="flex items-center">
+
+            <div className="flex items-center">
               <Logo />
               <div className="ml-2 text-nowrap">
-                <p className="md:text-2xl">Headshot Interactive</p>
+                <Link href="/" className="">
+                  <p className="md:text-2xl">Headshot Interactive</p>
+                </Link>
                 <p className="text-xs hidden md:flex">&copy; Copyright HeadshotInteractive.com | 2024</p>
+                <Link href="/privacy" className="">
+                  <p className="text-xs hidden md:flex hover:underline">Privacy Policy</p>
+                </Link>
               </div>
-            </Link>
+            </div>
             {/* Open Button */}
             <button type="button" className={`${isOpen ? "hidden" : "block"}` + " inline-flex items-center md:hidden"} onClick={toggle}>
               <svg

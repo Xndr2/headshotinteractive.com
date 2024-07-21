@@ -84,6 +84,8 @@ const Sidebar = ({ isOpen, toggle }: {
           <p className="text-sm w-max mx-auto text-pretty text-center">
             &copy; Copyright 2024, HeadshotInteractive.com
             <br />
+            <Link href="/privacy" className=" underline">Privacy Policy</Link>
+            <br />
             All right reserved.
           </p>
         </div>
