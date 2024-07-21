@@ -23,14 +23,14 @@ export default function Privacy() {
                 </div>
 
                 <div className="text-lg mt-10">
-                    <h1 className="text-2xl sm:text-3xl tracking-tight font-extrabold">Why we don't collect any data:</h1>
-                    <p>"I believe that we do not need all this information since we are still a small group of developers. We gain nothing by collecting and selling user data."</p>
+                    <h1 className="text-2xl sm:text-3xl tracking-tight font-extrabold">Why we don&apos;t collect any data:</h1>
+                    <p>&quot;I believe that we do not need all this information since we are still a small group of developers. We gain nothing by collecting and selling user data.&quot;</p>
                     <p className="sm:ml-72">-Xndr, Project Lead</p>
                 </div>
 
                 <div className="text-lg mt-10">
                     <h1 className="text-2xl sm:text-3xl tracking-tight font-extrabold">Cookies:</h1>
-                    <p>This website doesn't use cookies since you, the user, do not log in or change anything on the website.</p>
+                    <p>This website doesn&apos;t use cookies since you, the user, do not log in or change anything on the website.</p>
                 </div>
             </div>
         </>
