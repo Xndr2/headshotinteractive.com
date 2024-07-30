@@ -37,7 +37,7 @@ export default function Home() {
                             height={14}
                             className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
                         />
-
+                        <h1 className="text-xl md:text-4xl font-thin">We aim for gameplay.</h1>
 
                     </div>
 
@@ -69,23 +69,34 @@ export default function Home() {
 
                         {/* Info */}
                         <p className="mx-10 mb-20 md:text-lg text-left max-w-screen-md">
-                            Abandoned is a Sci-Fi Tactical PvE shooter set on an alien planet that serves as a trading hub for products,
-                            spices and goods from all across the galaxy.
+                            <span className="font-bold">Abandoned: Prologue</span> is a psychological thriller set in a universe created by Headshot Interactive. You play as a security officer aboard a space station with the goal of making first contact with whatever is out there.
                             <br /><br />
-                            You, <span className="italic">the player</span>, are on this planet and need to find a way back home. <br />
-                            Explore the huge city, fight alien terrorists that want to take over the planet or work together with the military and destroy these terrorist once and for all.<br />
-                            The game follows a basic story line, some of the decisions you make can lead to an entirely different ending.
-                            <br /><br /><span className="font-semibold text-xl">&#8227; Explore</span><br />
-                            Build on Unreal Engine 5, Abandoned allows for a planet on a 1:1 scale that is fully explore-able. Explore the city or go outside city walls, who knows what you might find out there.
-                            <br /><br /><span className="font-semibold text-xl">&#8227; Fight</span><br />
-                            The city&apos;s military is in all out war with a group of terrorists that want to take over the city. Complete your basic training and join an AI squad on a mission.
-                            Carefully plan out your next move, be stealthy, or go in guns-blazing.
-                            <br />The choice is up to you.
-                            <br /><br /><span className="font-semibold text-xl">&#8227; Escape</span><br />
-                            At the end of the day, your main objective is still trying to get off this planet and going back to earth to report what happened to your crew... what actually happened to your crew?
-                            Try to remember the events that went down before coming to this planet alone and leave once you remember everything you need. But is everything you need to know really everything there&apos;s to know?
-                            <br />Can you really trust everyone you know?
-                            <br />Maybe all this isn&apos;t what it looks like...
+                            <span className="text-red-500 text-xl">Story</span>
+                            <br />
+                            It's the year 2052 when you wake up from hyper sleep - but you immediately know there is something wrong. The ship you are in is docked to an abandoned alien space station. You must find the remaining crew members and find out what happened.
+                            <br /><br />
+                            <span className="text-red-500 text-xl">Gameplay</span>
+                            <br />
+                            <ul className="list-inside list-disc">
+                                <li>Psychological Thriller</li>
+                                <p>You won't believe the things that lived on this station. And who says everyone left... Why is the station abandoned? What really is going on?
+                                    We aim to create a game that will make you question almost everything you do.</p>
+                                <br />
+                                <li>Linear</li>
+                                <p>The game is created with a linear playstyle in mind. This means that one thing will unlock another thing, but there is no way of going back.
+                                    It plays like Half Life, Prey, Metro, Dead Space, etc.</p>
+                                <br />
+                                <li>Graphics</li>
+                                <p>Build using Unreal Engine 5 we can create an amazing looking game while still being optimized and performant.
+                                    Make sure to check the minimum specification below.</p>
+                            </ul>
+                            <br /><br />
+                            <span className="text-red-500 text-xl">Side note!!</span>
+                            <br />
+                            This is our debut game. We had the intention of creating something different but decided to first make a smaller game first. Abandoned: Prologue is made with the story of Abandoned in mind, see it as extra content before the main game.
+                            We went this way because none of us are game developers or have any experience with it. And now we can focus on learning without large consequences if anything goes wrong.
+                            <br />
+                            [For anyone that read the previous description, that was the one for Abandoned.]
                         </p>
                     </div>
                 </div>
