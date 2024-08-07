@@ -68,15 +68,17 @@ export default function Home() {
                         />
 
                         {/* Info */}
-                        <p className="mx-10 mb-20 md:text-lg text-left max-w-screen-md">
-                            <span className="font-bold">Abandoned: Prologue</span> is a psychological thriller set in a universe created by Headshot Interactive. You play as a security officer aboard a space station with the goal of making first contact with whatever is out there.
-                            <br /><br />
-                            <span className="text-red-500 text-xl">Story</span>
-                            <br />
-                            It's the year 2052 when you wake up from hyper sleep - but you immediately know there is something wrong. The ship you are in is docked to an abandoned alien space station. You must find the remaining crew members and find out what happened.
-                            <br /><br />
-                            <span className="text-red-500 text-xl">Gameplay</span>
-                            <br />
+                        <div className="mx-10 mb-20 md:text-lg text-left max-w-screen-md">
+                            <p>
+                                <span className="font-bold">Abandoned: Prologue</span> is a psychological thriller set in a universe created by Headshot Interactive. You play as a security officer aboard a space station with the goal of making first contact with whatever is out there.
+                                <br /><br />
+                                <span className="text-red-500 text-xl">Story</span>
+                                <br />
+                                It's the year 2052 when you wake up from hyper sleep - but you immediately know there is something wrong. The ship you are in is docked to an abandoned alien space station. You must find the remaining crew members and find out what happened.
+                                <br /><br />
+                                <span className="text-red-500 text-xl">Gameplay</span>
+                                <br />
+                            </p>
                             <ul className="list-inside list-disc">
                                 <li>Psychological Thriller</li>
                                 <p>You won't believe the things that lived on this station. And who says everyone left... Why is the station abandoned? What really is going on?
@@ -90,14 +92,16 @@ export default function Home() {
                                 <p>Build using Unreal Engine 5 we can create an amazing looking game while still being optimized and performant.
                                     Make sure to check the minimum specification below.</p>
                             </ul>
-                            <br /><br />
-                            <span className="text-red-500 text-xl">Side note!!</span>
-                            <br />
-                            This is our debut game. We had the intention of creating something different but decided to first make a smaller game first. Abandoned: Prologue is made with the story of Abandoned in mind, see it as extra content before the main game.
-                            We went this way because none of us are game developers or have any experience with it. And now we can focus on learning without large consequences if anything goes wrong.
-                            <br />
-                            [For anyone that read the previous description, that was the one for Abandoned.]
-                        </p>
+                            <p>
+                                <br />
+                                <span className="text-red-500 text-xl">Side note!!</span>
+                                <br />
+                                This is our debut game. We had the intention of creating something different but decided to first make a smaller game first. Abandoned: Prologue is made with the story of Abandoned in mind, see it as extra content before the main game.
+                                We went this way because none of us are game developers or have any experience with it. And now we can focus on learning without large consequences if anything goes wrong.
+                                <br />
+                                [For anyone that read the previous description, that was the one for Abandoned.]
+                            </p>
+                        </div>
                     </div>
                 </div>
             </main>
