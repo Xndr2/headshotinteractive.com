@@ -74,14 +74,14 @@ export default function Home() {
                                 <br /><br />
                                 <span className="text-red-500 text-xl">Story</span>
                                 <br />
-                                It's the year 2052 when you wake up from hyper sleep - but you immediately know there is something wrong. The ship you are in is docked to an abandoned alien space station. You must find the remaining crew members and find out what happened.
+                                It&apos;s the year 2052 when you wake up from hyper sleep - but you immediately know there is something wrong. The ship you are in is docked to an abandoned alien space station. You must find the remaining crew members and find out what happened.
                                 <br /><br />
                                 <span className="text-red-500 text-xl">Gameplay</span>
                                 <br />
                             </p>
                             <ul className="list-inside list-disc">
                                 <li>Psychological Thriller</li>
-                                <p>You won't believe the things that lived on this station. And who says everyone left... Why is the station abandoned? What really is going on?
+                                <p>You won&apos;t believe the things that lived on this station. And who says everyone left... Why is the station abandoned? What really is going on?
                                     We aim to create a game that will make you question almost everything you do.</p>
                                 <br />
                                 <li>Linear</li>
