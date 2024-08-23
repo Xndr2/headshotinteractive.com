@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import MeetTheTeam from "./components/meettheteam";
 import Testers from "./components/testers";
+import Head from "next/head";
+import { StyledKofiButton } from "./components/KofiButton";
 
 export default function Home() {
     let team = [
@@ -29,6 +31,9 @@ export default function Home() {
         <>
             <main className="">
                 <div id="Home" className="absolute top-0 w-full text-center">
+                    {/* Kofi */}
+                    {/* <StyledKofiButton /> */}
+
                     {/* Main */}
                     <div className="flex h-[120vh] flex-col items-center bg-home-image-1 bg-cover bg-center">
                         <Image

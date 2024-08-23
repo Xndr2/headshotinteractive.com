@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { StyledKofiButton } from "../../KofiButton";
 
 const Sidebar = ({ isOpen, toggle }: {
   isOpen: boolean;
@@ -27,7 +28,7 @@ const Sidebar = ({ isOpen, toggle }: {
           </li>
           <li className="mt-8">
             {/* Social media */}
-            <p>Support us</p>
+            <p>Follow us online</p>
             <ul className="flex justify-between mt-2">
               {/* Discord */}
               <li>
@@ -71,6 +72,7 @@ const Sidebar = ({ isOpen, toggle }: {
               </li>
             </ul>
           </li>
+          <StyledKofiButton />
         </ul>
         {/* Logo */}
         <div className="absolute bottom-0 left-0 mb-4 w-full mx-auto">

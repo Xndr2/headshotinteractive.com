@@ -3,6 +3,7 @@ import Navigation from "./components/navigation";
 import Script from 'next/script'
 import "./globals.css";
 import { Goldman } from "next/font/google";
+import { StyledKofiButton } from "./components/KofiButton";
 
 const goldman = Goldman({
   weight: ["400", "700"],
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body className={goldman.className}>
         <Navigation />
         {children}
+        <StyledKofiButton />
       </body>
     </html>
   );
