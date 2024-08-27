@@ -80,7 +80,9 @@ const Sidebar = ({ isOpen, toggle }: {
               </li>
             </ul>
           </li>
-          <StyledKofiButton />
+          <div className="mt-4">
+            <StyledKofiButton />
+          </div>
         </ul>
         {/* Logo */}
         <div className="absolute bottom-0 left-0 mb-4 w-full mx-auto">

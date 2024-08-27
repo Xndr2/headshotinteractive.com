@@ -57,7 +57,9 @@ export default function RootLayout({
       <body className={goldman.className}>
         <Navigation />
         {children}
-        <StyledKofiButton />
+        <div className="fixed bottom-0 p-4">
+          <StyledKofiButton />
+        </div>
       </body>
     </html>
   );
