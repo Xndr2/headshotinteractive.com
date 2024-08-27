@@ -31,37 +31,37 @@ export default function Home() {
         <>
             <main className="">
                 <div id="Home" className="absolute top-0 w-full text-center">
-                    {/* Kofi */}
-                    {/* <StyledKofiButton /> */}
-
                     {/* Main */}
-                    <div className="flex h-[120vh] flex-col items-center bg-home-image-1 bg-cover bg-center">
-                        <Image
-                            src="/Logos/HI_Text.png"
-                            alt="Logo"
-                            width={1440}
-                            height={14}
-                            className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
-                        />
-                        <h1 className="text-xl md:text-4xl font-thin">We aim for gameplay.</h1>
-
+                    <div className="flex flex-col items-center h-screen bg-home-image-1 bg-cover bg-center">
+                        <div className="mt-64">
+                            <Image
+                                src="/Logos/HI_Text.png"
+                                alt="Logo"
+                                width={1440}
+                                height={14}
+                                className="h-auto max-h-32 w-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
+                            />
+                            <h1 className="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-thin drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
+                                We <span className="text-red-500">aim</span> for gameplay.
+                            </h1>
+                        </div>
                     </div>
 
                     {/* About */}
-                    <div id="About" className="flex h-full md:h-[120vh] flex-col items-center bg-home-image-2 bg-cover bg-center">
-                        <h2 className="text-4xl mt-20 md:mt-40 mx-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">Meet the team!</h2>
-                        <p className="mx-10 md:text-lg text-center max-w-screen-md">
+                    <div id="About" className="flex flex-col items-center bg-home-image-2 bg-cover bg-center">
+                        <h2 className="text-4xl mt-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">Meet the team!</h2>
+                        <p className="mx-10 md:text-lg text-center">
                             We are Headshot Interactive, a small indie development studio.
                             <br />
                             Starting from a single developer, we have grown into a team of {team.length} amazing people.
                         </p>
-                        {/* member list */}
                         <MeetTheTeam team={team} />
                         <p className="mx-10 md:text-lg text-center max-w-screen-md">
                             We also have a small group of {testers.length} active Steam testers.
                         </p>
                         <Testers testers={testers} />
                     </div>
+
 
                     {/* Abandoned */}
                     <div id="Abandoned" className="flex h-full max-h-max flex-col items-center bg-black bg-cover bg-center">
