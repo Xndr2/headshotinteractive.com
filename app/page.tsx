@@ -24,7 +24,6 @@ export default function Home() {
         { src: "/abandoned_pfp/testers/Simon.webp", name: "Simon", title: "Tester" },
         { src: "/abandoned_pfp/testers/Flixy.webp", name: "Flixy", title: "Tester" },
         { src: "/abandoned_pfp/testers/Jarne2203.webp", name: "Jarne2203", title: "Tester" },
-        { src: "/abandoned_pfp/testers/Serg4.webp", name: "Serg4", title: "Tester" },
     ]
 
     return (
