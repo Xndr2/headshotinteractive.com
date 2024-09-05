@@ -14,7 +14,6 @@ export default function Home() {
         { src: "/abandoned_pfp/grug.webp", name: "Grug", title: "Trial Graphics Developer ", rank: "Moderator" },
         { src: "/abandoned_pfp/theusi.webp", name: "TheUsi", title: "3D Modeler", rank: "Developer" },
         { src: "/abandoned_pfp/Lynx.jpg", name: "Lynx", title: "Sound Designer", rank: "Trial Developer" },
-        { src: "/abandoned_pfp/milton.webp", name: "Milton", title: "Story Writer", rank: "Trial Developer" },
     ];
 
     let testers = [
