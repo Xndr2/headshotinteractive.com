@@ -30,7 +30,7 @@ export default function Home() {
             <main className="">
                 <div id="Home" className="absolute top-0 w-full text-center">
                     {/* Main */}
-                    <div className="flex flex-col items-center h-screen bg-home-image-1 bg-cover bg-center">
+                    <div className="flex flex-col items-center h-screen bg-home-image-4 bg-cover bg-center">
                         <div className="mt-64">
                             <Image
                                 src="/Logos/HI_Text.png"
@@ -62,48 +62,48 @@ export default function Home() {
 
 
                     {/* Abandoned */}
-                    <div id="Abandoned" className="flex h-full max-h-max flex-col items-center bg-black bg-cover bg-center">
+                    <div id="Abandoned" className="flex flex-col items-center bg-home-image-1 bg-cover bg-center">
                         <Image
                             src="/Logos/Abandoned_logo.png"
                             alt="Logo"
                             width={640}
                             height={101}
-                            className="h-auto md:w-6/12 mt-20 md:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
+                            className="h-auto md:w-6/12 lg:w-4/12 my-20 my:mt-40 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]"
                         />
 
                         {/* Info */}
-                        <div className="mx-10 mb-20 md:text-lg text-left max-w-screen-md">
+                        <div className="mx-10 mb-20 md:text-lg text-left max-w-screen-md drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
                             <p>
-                                <span className="font-bold">Abandoned: Prologue</span> is a psychological thriller set in a universe created by Headshot Interactive. You play as a security officer aboard a space station with the goal of making first contact with whatever is out there.
-                                <br /><br />
-                                <span className="text-red-500 text-xl">Story</span>
+                                <a className="font-bold text-red-500 text-xl underline" target="_blank" href="https://store.steampowered.com/app/2897990/Abandoned_Prologue/">Abandoned</a> is a psychological thriller set in a universe created by Headshot Interactive.
                                 <br />
-                                It&apos;s the year 2052 when you wake up from hyper sleep - but you immediately know there is something wrong. The ship you are in is docked to an abandoned alien space station. You must find the remaining crew members and find out what happened.
+                                You play as a security officer aboard a space station. Your mission: Search for alien life forms and make contact with them.
                                 <br /><br />
-                                <span className="text-red-500 text-xl">Gameplay</span>
-                                <br />
+                                It&apos;s 2052, and after waking up from hyper-sleep, you quickly realize something is seriously wrong. Your ship has landed inside an alien space station, and you have no idea how or why. Your first task? Find out what happened to the missing crew.
+                                <br /><br />
+                                You&apos;ll explore dark, abandoned labs and eerie hallways while trying to avoid huge, dangerous monsters. As you dig deeper, you&apos;ll uncover the dark secrets of the station and race against time to find your crew before it&apos;s too late.
+                                <br /><br />
                             </p>
+                            <br /><br />
                             <ul className="list-inside list-disc">
-                                <li>Psychological Thriller</li>
-                                <p>You won&apos;t believe the things that lived on this station. And who says everyone left... Why is the station abandoned? What really is going on?
-                                    We aim to create a game that will make you question almost everything you do.</p>
+                                <li className="text-red-500 text-xl">Psychological Thriller</li>
+                                <p>The game will keep you guessing with its unsettling atmosphere and mysterious story.
+                                    You&apos;ll have to question everything as you uncover the truth behind the station&apos;s abandonment and the creatures that might still be lurking around.
+                                </p>
                                 <br />
-                                <li>Linear</li>
-                                <p>The game is created with a linear playstyle in mind. This means that one thing will unlock another thing, but there is no way of going back.
-                                    It plays like Half Life, Prey, Metro, Dead Space, etc.</p>
+                                <li className="text-red-500 text-xl">Linear</li>
+                                <p>Abandoned has a linear gameplay style, meaning you move from one event to the next without going back.
+                                    If you&apos;ve enjoyed games like Half-Life, Prey, Metro, or Dead Space, you&apos;ll feel right at home.</p>
                                 <br />
-                                <li>Graphics</li>
-                                <p>Build using Unreal Engine 5 we can create an amazing looking game while still being optimized and performant.
-                                    Make sure to check the minimum specification below.</p>
+                                <li className="text-red-500 text-xl">Visuals</li>
+                                <p>Built with Unreal Engine 5, Abandoned showcases stunning visual fidelity and a highly optimized performance, offering a captivating and immersive experience.
+                                    We recommend reviewing the minimum system requirements to ensure optimal gameplay.</p>
                             </ul>
                             <p>
                                 <br />
                                 <span className="text-red-500 text-xl">Side note!!</span>
                                 <br />
-                                This is our debut game. We had the intention of creating something different but decided to first make a smaller game first. Abandoned: Prologue is made with the story of Abandoned in mind, see it as extra content before the main game.
-                                We went this way because none of us are game developers or have any experience with it. And now we can focus on learning without large consequences if anything goes wrong.
-                                <br />
-                                [For anyone that read the previous description, that was the one for Abandoned.]
+                                As this is our debut project, we appreciate your understanding as we work diligently in our spare time to bring this game to life.
+                                We anticipate encountering bugs and inconsistencies and value your patience and feedback.
                             </p>
                         </div>
                     </div>

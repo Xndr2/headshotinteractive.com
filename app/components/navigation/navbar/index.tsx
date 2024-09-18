@@ -19,7 +19,7 @@ const Navbar = ({ isOpen, toggle }: {
                 <Link href="/privacy" className="">
                   <p className="text-xs hidden md:flex hover:underline">Privacy Policy</p>
                 </Link>
-                <p className="text-xs hidden md:flex">&copy; Copyright HeadshotInteractive.com | 2024</p>
+                {/* <p className="text-xs hidden md:flex">&copy; Copyright HeadshotInteractive.com | 2024</p> */}
               </div>
             </div>
             {/* Open Button */}
