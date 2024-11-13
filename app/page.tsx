@@ -14,6 +14,7 @@ export default function Home() {
         { src: "/abandoned_pfp/grug.webp", name: "Grug", title: "Trial Graphics Developer ", rank: "Moderator" },
         { src: "/abandoned_pfp/theusi.webp", name: "TheUsi", title: "3D Modeler", rank: "Developer" },
         { src: "/abandoned_pfp/Lynx.jpg", name: "Lynx", title: "Sound Designer", rank: "Trial Developer" },
+        { src: "/abandoned_pfp/Unholy0bastard.jpg", name: "Unholy0bastard", title: "C++ Programmer", rank: "Trial Developer" },
     ];
 
     let testers = [
@@ -22,6 +23,7 @@ export default function Home() {
         { src: "/abandoned_pfp/testers/Mera.webp", name: "Mera", title: "Tester" },
         { src: "/abandoned_pfp/testers/Simon.webp", name: "Simon", title: "Tester" },
         { src: "/abandoned_pfp/testers/Jarne2203.webp", name: "Jarne2203", title: "Tester" },
+        { src: "/abandoned_pfp/testers/MrDagger.webp", name: "Mr. Dagger", title: "Tester" },
     ]
 
     return (
