@@ -100,7 +100,7 @@ export default function Home() {
                                 <br />
                                 <li className="text-red-500 text-xl">Visuals</li>
                                 <p>
-                                We chose Unreal Engine 5 as a development tool because it provides the flexibility and resources we need to bring our vision for Abandoned to life. While advanced features like Lumen and Nanite may come in handy, our decision was never about marketing buzzwords or making Unreal a selling point. It’s simply the tool that best supports our creative goals.
+                                We chose Unreal Engine 5 as a development tool because it provides the flexibility and resources we need to bring our vision for Abandoned to life. While advanced features like Lumen and Nanite may come in handy, our decision was never about marketing buzzwords or making Unreal a selling point. It&apos;s simply the tool that best supports our creative goals.
                                 <br />
                                 We do recommend reviewing the minimum system requirements to ensure optimal gameplay.
                                 </p>
