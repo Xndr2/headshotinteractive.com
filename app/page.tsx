@@ -90,7 +90,7 @@ export default function Home() {
                                 <p>
                                 Tension lingers in every corner. Unknown dangers may lurk in the station&apos;s depths, and the line between truth and illusion becomes increasingly blurred. Your choices matter, and your resolve will be tested as you delve deeper into the mystery.
                                 <br /><br />
-                                The game will keep you questioning everything with its unsettling atmosphere and gripping story. Nothing is as it seems, and survival hinges on your ability to adapt and uncover the station's secrets.
+                                The game will keep you questioning everything with its unsettling atmosphere and gripping story. Nothing is as it seems, and survival hinges on your ability to adapt and uncover the station&apos;s secrets.
                                 </p>
                                 <br />
                                 <li className="text-red-500 text-xl">Linear</li>
