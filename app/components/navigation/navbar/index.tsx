@@ -61,8 +61,13 @@ const Navbar = ({ isOpen, toggle }: {
                   </Link>
                 </li>
                 <li className="underline-offset-2 hover:underline">
-                  <Link href="/updates">
-                    <p>Updates</p>
+                  <Link href="/about-us">
+                    <p>About Us</p>
+                  </Link>
+                </li>
+                <li className="underline-offset-2 hover:underline">
+                  <Link href="/abandoned">
+                    <p>Abandoned</p>
                   </Link>
                 </li>
               </div>

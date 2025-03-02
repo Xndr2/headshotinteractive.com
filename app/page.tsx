@@ -1,30 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import MeetTheTeam from "./components/meettheteam";
-import Testers from "./components/testers";
 import Head from "next/head";
 import { StyledKofiButton } from "./components/KofiButton";
 
 export default function Home() {
-    let team = [
-        // team
-        { src: "/abandoned_pfp/xndr.webp", name: "Xndr", title: "Project Lead", rank: "Senior Developer" },
-        { src: "/abandoned_pfp/charlesfrost.webp", name: "CharlesFrxst", title: "Community Manager", rank: "Senior Moderator" },
-        { src: "/abandoned_pfp/gadubadish.webp", name: "Gadubadish", title: "3D Modeler", rank: "Senior Developer" },
-        { src: "/abandoned_pfp/grug.webp", name: "Grug", title: "Trial Graphics Developer ", rank: "Moderator" },
-        { src: "/abandoned_pfp/theusi.webp", name: "TheUsi", title: "3D Modeler", rank: "Developer" },
-        { src: "/abandoned_pfp/Lynx.jpg", name: "Lynx", title: "Sound Designer", rank: "Trial Developer" },
-        { src: "/abandoned_pfp/Unholy0bastard.jpg", name: "Unholy0bastard", title: "C++ Programmer", rank: "Trial Developer" },
-    ];
-
-    let testers = [
-        // testers
-        { src: "/abandoned_pfp/testers/Kronos II.webp", name: "Kronos II", title: "Tester" },
-        { src: "/abandoned_pfp/testers/Mera.webp", name: "Mera", title: "Tester" },
-        { src: "/abandoned_pfp/testers/Simon.webp", name: "Simon", title: "Tester" },
-        { src: "/abandoned_pfp/testers/Jarne2203.webp", name: "Jarne2203", title: "Tester" },
-        { src: "/abandoned_pfp/testers/MrDagger.webp", name: "Mr. Dagger", title: "Tester" },
-    ]
 
     return (
         <>
@@ -47,19 +26,6 @@ export default function Home() {
                     </div>
 
                     {/* About */}
-                    <div id="About" className="flex flex-col items-center bg-home-image-2 bg-cover bg-center">
-                        <h2 className="text-4xl mt-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">Meet the team!</h2>
-                        <p className="mx-10 md:text-lg text-center">
-                            We are Headshot Interactive, a small indie development studio.
-                            <br />
-                            Starting from a single developer, we have grown into a team of {team.length} amazing people.
-                        </p>
-                        <MeetTheTeam team={team} />
-                        <p className="mx-10 md:text-lg text-center max-w-screen-md">
-                            We also have a small group of {testers.length} active Steam testers.
-                        </p>
-                        <Testers testers={testers} />
-                    </div>
 
 
                     {/* Abandoned */}

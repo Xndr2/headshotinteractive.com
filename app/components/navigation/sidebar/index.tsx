@@ -22,13 +22,17 @@ const Sidebar = ({ isOpen, toggle }: {
             </Link>
           </li>
           <li>
-            <Link href="/updates" onClick={toggle}>
-              <p>Updates</p>
+            <Link href="/about-us" onClick={toggle}>
+              <p>About Us</p>
+            </Link>
+          </li>
+          <li>
+            <Link href="/abandoned" onClick={toggle}>
+              <p>Abandoned</p>
             </Link>
           </li>
           <li className="mt-8">
             {/* Social media */}
-            <p>Follow us online</p>
             <ul className="flex justify-between mt-2">
               {/* Discord */}
               <li>
