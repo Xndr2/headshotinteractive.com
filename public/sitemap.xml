@@ -1,10 +1,13 @@
-<!-- public/sitemap.xml -->
-   <xml version="1.0" encoding="UTF-8">
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <url>
-       <loc>http://www.headshotinteractive.com</loc>
-       <lastmod>2024-04-25T14:42:49+00:00</lastmod>
-       <priority>1.00</priority>
-     </url>
-   </urlset>
-   </xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://headshotinteractive.com</loc>
+    <lastmod>2026-02-27</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://headshotinteractive.com/privacy</loc>
+    <lastmod>2026-02-27</lastmod>
+    <priority>0.30</priority>
+  </url>
+</urlset>
